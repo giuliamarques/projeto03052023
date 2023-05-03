@@ -1,0 +1,17 @@
+ALGORITMO SOMA  
+
+DECLARAÇÃO 
+	N1: DECIMAL;
+	N2: DECIMAL;
+	RESULTADO: DECIMAL;
+	
+	
+INICIO
+	escreva ("Digite um número.");
+	leia (N1);
+	escreva ("Digite outro número.");
+	leia (N2);
+	RESULTADO <- N1+N2;
+	escreva ("O resultado é");
+	escreva (RESULTADO);
+FIM
